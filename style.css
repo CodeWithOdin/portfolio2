@@ -249,6 +249,9 @@ a {
       display: none !important;
     } */
   
+    .slider-wrapper{
+      margin: 0 2rem 0 2rem;
+    }
     .slider-wrapper .image-list {
       gap: 10px;
       margin-bottom: 15px;
@@ -256,7 +259,7 @@ a {
     }
   
     .slider-wrapper .image-list .image-item {
-      width: 325px;
+      width: 320px;
       height: 380px;
     }
   
