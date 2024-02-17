@@ -81,7 +81,7 @@ const interval = setInterval(autoChangeImage, 2500);
       button.addEventListener("click", () => {
           clearInterval(interval);
           const direction = button.id === "prev-slide" ? -1 : 1;
-          const scrollAmount = imageList.clientWidth * direction/2;
+          const scrollAmount = imageList.clientWidth * direction/1.5;
           imageList.scrollBy({ left: scrollAmount, behavior: "smooth" });
       });
   });
