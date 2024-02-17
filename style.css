@@ -245,10 +245,13 @@ a {
   
   /* Styles for mobile and tablets */
   @media only screen and (max-width: 1023px) {
-    .slider-wrapper .slide-button {
+    /* .slider-wrapper .slide-button {
       display: none !important;
+    } */
+    
+    .slider-wrapper{
+      margin: 0 2rem 0 2rem;
     }
-  
     .slider-wrapper .image-list {
       gap: 10px;
       margin-bottom: 15px;
@@ -256,8 +259,8 @@ a {
     }
   
     .slider-wrapper .image-list .image-item {
-      width: 280px;
-      height: 380px;
+      width: 220px;
+      height: 385px;
     }
   
     .slider-scrollbar .scrollbar-thumb {

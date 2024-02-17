@@ -79,6 +79,7 @@ const interval = setInterval(autoChangeImage, 2500);
   // Slide images according to the slide button clicks
   slideButtons.forEach(button => {
       button.addEventListener("click", () => {
+          clearInterval(interval);
           const direction = button.id === "prev-slide" ? -1 : 1;
           const scrollAmount = imageList.clientWidth * direction/2;
           imageList.scrollBy({ left: scrollAmount, behavior: "smooth" });
